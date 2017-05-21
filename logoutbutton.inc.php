@@ -1,0 +1,1 @@
+<li style="padding:0px 0px 0px 480px"><a href="logout.php"><button class="btn btn-danger"><span style="color:white; font-size:14px"><i class="glyphicon glyphicon-off"></i> Logout</span></button></a></li>

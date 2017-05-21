@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<p>Never create strings as objects.</p>
+<p>Strings and objects cannot be safely compared.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = "John";              // x is a string
+var y = new String("John");  // y is an object
+document.getElementById("demo").innerHTML = (x===y);//returns not equal because === demands equality in type(ie same object only) as well as value while == demands equallity in value only, so gives equal.
+</script>
+</body>
+</html>
